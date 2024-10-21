@@ -4,37 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeArch Inc.</title>
+    <link rel="stylesheet" href="homepage-styles.css">
 </head>
-<body style="background-color:dimgray">
-
+<body>
 <!--Header-->
-    <header>
-        <h1 style="color:white">DeArch Incorporated</h1> 
-            <nav>
-                <li style="color:white"><a href="account.html">Account</a></li>
-                <li style="color:white"><a href="orders_returns.html">Orders & Returns</a></li>
-                <li style="color:white"><a href="cart.html">Cart</a></li>
-            </nav>
-    </header>
-
+<header class="navbar">
+    <div class="left">DeArch Inc.</div>
+    <div class="center"></div>
+        <div class="search-box"> 
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+    <div class="right">
+        <a href="orders_returns.html">Orders & Returns</a>
+        <a href="cart.html">Cart</a>  
+        <a href="account.html">Account</a>
+    </div>
+</header>
+<hr>
 <!--Main-->
     <main>
-            </table>
+        <section class="slogan">
+            <h1>For Students, by students.</h1>
         </section>
-        <a href="Tools">Tools</a>
-        <a href="Materials">Materials</a>
-        <a href="Books">Books</a>
-        <a href="Custom PCs">Custom PCs</a>
-        <a href="Software">Software</a>
-
-
+        <hr>
+                <!--Shops-->
+                <div class=shops>
+                <!--Tools-->
+                   <div class="shop-item">
+                    <h2>Tools</h2>
+                    <p>Quality tools for all your architectural needs.</p>
+                    <a href="shops/tools.html">
+                        <img src="shops\shop images\tools.png" alt="Tools" class="shop-image">
+                    </a>
+                </div>
+                <!--Materials-->
+                <div class="shop-item">
+                    <h2>Materials</h2>
+                    <p>Essential materials for your next project.</p>
+                    <a href="shops/materials.html">
+                        <img src="shops\shop images\materials.png" alt="Materials" class="shop-image">
+                    </a>
+                </div>
+                <!--Books-->
+                <div class="shop-item">
+                    <h2>Books</h2>
+                    <p>Explore our selection of architecture books.</p>
+                    <a href="shops/tools.html">
+                        <img src="shops\shop images\books.png" alt="Books" class="shop-image">
+                    </a>
+                </div>
+                <!--Customs PCs-->
+                <div class="shop-item">
+                    <h2>Custom PCs</h2>
+                    <p>Build your perfect architecture workstation.</p>
+                    <a href="shops/custom-pcs.html">
+                        <img src="shops\shop images\custom-pcs.png" alt="Custom-Pcs" class="shop-image">
+                    </a>
+                </div>
+                <!--Software-->
+                <div class="shop-item">
+                         <h2>Software</h2>
+                        <p>Get the latest software tools for architects.</p>
+                        <a href="shops/software.html">
+                        <img src="shops\shop images\tools.png" alt="Software" class="shop-image">
+                    </a>
+                </div>
+            </div>
     </main>
-
-    
 <!--Footer-->
+<hr>
    <footer>
-        <p style="color:white;">2024 DeArch Incorporated. All Rights Reserved. </p>
-        <img src="DeArch logo-1.png" alt="logo-1" width="250" height="250" >
+        <p>&copy;2024 DeArch Incorporated. All Rights Reserved. </p>
+        
    </footer>
 </body>
 

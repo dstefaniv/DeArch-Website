@@ -1,0 +1,123 @@
+body{
+    background-color: #1C1C1C;
+}
+
+/*header styles*/
+.navbar{
+    background-color: #1C1C1C;
+    padding: 10px 20px;
+}
+.navbar div{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.left{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.center{
+    margin:20px;
+    text-align: center;
+    margin-left: 350px;
+}
+.search-box input{
+    width: 1000px;
+    padding: 10px;
+    border: 3px ;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+}
+.search-box button{
+    padding: 10px 12px;
+    background-color:white;
+    color: #1C1C1C;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.right{
+    text-align: right;
+    padding-right:20px;
+    font-size: 30px;
+    margin-left: 350px;
+}
+.right a{
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+/*main styles*/
+main{
+    padding: 0px;
+    
+    text-align: center;
+}
+.slogan{
+    margin-bottom: 30px;
+}
+.slogan h1{
+    font-size: 45px;
+    margin:20px 0;
+    padding: 20px;
+    color: white;
+}
+/*shops*/
+h2{
+    color: white;
+    font-size: 45px;
+    margin: 10px;
+
+}
+.shops{
+    text-align: center;
+}
+
+.shop-item{
+   margin: 30px;
+   color: white;
+   border: solid;
+   width: 400px;
+   height: 550px;
+   display: inline-block;
+   border-radius: 5px;;
+   padding: 10px;
+   margin-bottom: 500px;
+
+}
+.shop-item a{
+    color: white;
+    font-size:45px;
+    text-decoration: none;
+}
+.shop-item p{
+    margin: 10px 0;
+    color: white;
+    font-size: 25px;
+}
+.shop-item img{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border: solid;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+hr{
+    margin:0
+}
+/*footer styles */
+footer{
+    background-color: #1C1C1C;
+    text-align: center;
+    color: white;
+}
