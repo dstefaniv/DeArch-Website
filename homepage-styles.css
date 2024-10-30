@@ -10,6 +10,17 @@ body{
 main {
     flex:1
 }
+.subheader{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color:#1C1C1C;
+    font-weight: bold;
+    border-bottom:2px solid #1C1C1C;
+    width: 50%;
+    margin: 0px auto;
+    padding: 10px;
+}
 /*Navbar*/
 nav{
     display:flex;
@@ -23,9 +34,6 @@ nav ul{
     padding: 0px;
 }
 
-nav li{
-    list-style: none;
-}
 nav li a{
     text-decoration: none;
     color: white;
@@ -81,8 +89,8 @@ button:hover{
     margin: 0 auto;
 }
 .shop-item {
-    background-color:#f9f9f94d ;
-    border: 2px solid #1C1C1C;
+    background-color:#1C1C1C ;
+    border: 2px solid white;
     border-radius: 8px;
     width:200px;
     text-align: center;
@@ -91,26 +99,36 @@ button:hover{
     box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
+.shop-item a{
+    text-decoration: none;
+    color: white;
+}
 .shop-item:hover{
-    transform: translateY(-5px);
+    transform: scale(1.05) ;
     box-shadow: 0 8 16px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
 }
 .shop-image{
-    max-width:100%;
-    height: auto;
     border-radius:5px;
+    max-height: 200px;
+    max-width: 200px;
+    color: white;
+    min-height: 200px;
 }
 
 .shop-item h2{
     font-size: 18px;
     margin: 10px 0;
-    color: black;
+    color: white;
 }
 
 .shop-item p{
     font-size: 14px;
-    color: black;
+    color: white;
+}
+.shop-item:hover h2,
+.shop-item:hover p{
+    color: aquamarine;
 }
 /*Footer */
 
