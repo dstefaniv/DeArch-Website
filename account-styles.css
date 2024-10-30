@@ -5,11 +5,42 @@ body{
     margin: 0;
     padding: none;
 }
-h1{
 
+.logo{ 
+    border: solid;
+    border-color:#1C1C1C;
+    width:300px;
+    height:275px; 
+    padding:20px;
+   align-items: center;
+    
+
+}
+h1{
     font-size: 50px;
-    margin: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+     
+    
+}
+
+.box-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    height:275px;
+    width:300px;
+    border-color: whitesmoke;
+    border-radius: 1px;
+    text-align: center;
+    border-style: solid;
+ margin-top: 20px;
+
 }
 table{
     text-align: center;
@@ -28,6 +59,7 @@ input[type="password"] {
     border-radius: 5px;
     background-color: #1C1C1C;
     color: white;
+    justify-items: center;
 }
 input[type="submit"]{
     background-color: white;
@@ -36,6 +68,7 @@ input[type="submit"]{
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    justify-items: center;
 }
 
 .break-bottom{
