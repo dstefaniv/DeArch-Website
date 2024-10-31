@@ -44,7 +44,7 @@ nav li a{
 }
 
 a:hover{
-    color:aquamarine
+    color: rgb(190,83,21)
 }
 
 nav li input{
@@ -73,7 +73,7 @@ nav li button{
 }
 
 button:hover{
-    color: aquamarine;
+    color: rgb(190, 83, 21)
 }
 /*Main*/
 .slogan{
@@ -128,7 +128,7 @@ button:hover{
 }
 .shop-item:hover h2,
 .shop-item:hover p{
-    color: aquamarine;
+    color: rgb(190, 89, 7);
 }
 /*Footer */
 
