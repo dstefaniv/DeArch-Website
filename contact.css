@@ -58,7 +58,7 @@ nav li a{
 }
 
 a:hover{
-    color:aquamarine
+    color:rgb(190, 89, 7);
 }
 
 nav li input{
@@ -87,7 +87,7 @@ nav li button{
 }
 
 button:hover{
-    color: aquamarine;
+    color: rgb(190, 89, 7);
 }
 /*Footer Styles */
 
