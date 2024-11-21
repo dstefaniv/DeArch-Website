@@ -57,7 +57,7 @@ nav li a{
 }
 
 a:hover{
-    color:aquamarine
+    color:rgb(190,83,21);
 }
 
 nav li input{
@@ -86,7 +86,7 @@ nav li button{
 }
 
 button:hover{
-    color: aquamarine;
+    color: rgb(190,83,21);;
 }
 /*Login & Registration Font Styles and Borders*/
 
@@ -107,7 +107,7 @@ input[type="submit"]{
     color: white;
 }
 input[type="submit"]:hover{
-    color: aquamarine;
+    color: rgb(190, 89, 7);
     background-color:black;
     transform: scale(1.05) ;
     box-shadow: 0 8 16px rgba(0, 0, 0, 0.3);
@@ -133,7 +133,7 @@ input[type="submit"]:hover{
 }
 
 .back:hover{
-    color: aquamarine;
+    color: rgb(190, 89, 7);
     background-color: black;
     transform: scale(1.05) ;
     box-shadow: 0 8 16px rgba(0, 0, 0, 0.3);
