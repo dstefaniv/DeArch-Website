@@ -66,13 +66,14 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .sticky-box{
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    width: 1510px;
+    width: 1920px;
     height:111px;
     background-image:url(BookPictures/book-header.jpg);
     background-size: cover;
