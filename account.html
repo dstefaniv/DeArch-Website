@@ -21,14 +21,15 @@
 <h3 class="subheader">Account Management</h3>
      <!--Login-->
 <div class="container">
-<div class="box">
+<div id="login-box" class="box">
         <h2>Login</h2>
     <input type="text" placeholder="Username"class="lr-style">
     <input type="password" placeholder="Password"class="lr-style">
     <input type="submit" placeholder="Login"class="lr-style">
+    <button type="button" id="show-register">Don't have an account? Register</button>
 </div>
      <!--Registration-->
-    <div class="box">
+    <div id="register-box" class="box" style="display: none;">
         <h2>Register</h2>
         <input type="text" placeholder="First-Name" class="lr-style">
         <input type="text" placeholder="Last-Name"class="lr-style">
@@ -36,14 +37,17 @@
         <input type="text" placeholder="Username"class="lr-style">
         <input type="password" placeholder="Password"class="lr-style">
         <input type="submit" placeholder="Register"class="lr-style">
+        <button type="button" id="show-login">Already have an account? Login</button>
     </div>
        </div>
+      
      <!--BackButton-->
         <div class="back-button">
         <a href="Homepage.html" class="back">Back to Homepage</a>
         </div>
     </div>
 <!--Footer-->
+<script src="account.js"></script>
    <footer>
         <p>&copy;2024 DeArch Incorporated. All Rights Reserved. </p>
    </footer>
