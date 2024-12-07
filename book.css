@@ -1,0 +1,5 @@
+#sticky-box{ 
+    flex:content;
+    justify-content: space-around;
+    text-align: center;
+}
