@@ -1,47 +1,15 @@
-/*Body */
-body{
-    background-color:lightgray;
-    margin: 0px;
-    flex-direction: column;
-    display: flex;
-    min-height: 100vh;
+<<<<<<< Updated upstream
 
-}
-/*Main */
 main {
     flex:1
 }
-
-/*Footer Styles */
-
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding:8px 0;
-    margin-top: auto;
-    font-family: 'Times New Roman';
-    font-size: 12px;
-}
-/*Subheader*/
-.subheader{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 24px;
-    color:#1C1C1C;
-    font-weight: bold;
-    border-bottom:2px solid #1C1C1C;
-    width: 50%;
-    margin: 0px auto;
-    padding: 10px;
-}
-/*Navbar*/
 nav{
     display:flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content:space-between;
     align-items: center;
     background-color: black;
-    padding: 15px;
+    padding: 10px;
     margin: 0px;
 }
 nav ul{
@@ -56,36 +24,124 @@ nav li a{
     font-family: Arial, sans-serif;
     font-size: 20px;  
 }
+nav li input{
+    width: 45vw;
+    height:15px ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #1C1C1C;
+ }
+ 
+ nav li button{
+     width: 80px;
+     height: 40px;
+     border-radius: 10px ;
+     font-family: 'Times New Roman';
+     font-size: 20px;
+     color: #1C1C1C;
+     background-color: white; 
+     border:0px;
+     padding:0px;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+ 
+ }
 
 a:hover{
-    color:aquamarine
+    color: rgb(190, 89, 7)
 }
 
-nav li input{
-   width: 45vw;
-   height:40px ;
-   padding:0 10px;
-   border-radius: 10px;
-   background-color: white;
-   border: 1px solid #1C1C1C;
+body{
+    background-color:lightgray;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
 }
-
-nav li button{
-    width: 80px;
-    height: 40px;
-    border-radius: 10px ;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    color: #1C1C1C;
-    background-color: white; 
-    border:0px;
-    padding:0px;
-    align-items: center;
-    justify-content: center;
+h1{
+    text-decoration: underline;
+    color:whitesmoke;
     font-weight: bold;
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
-button:hover{
-    color: aquamarine;
+.sticky-box{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 1920px;
+    height:111px;
+    background-image:url(BookPictures/book-header.jpg);
+    background-size: cover;
+    position: sticky;
+    top: 0px;
 }
+
+
+.book{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 20px;
+    margin: 0;
+}
+
+.bookline2{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 20px;
+    margin: 0;
+}
+.book-item {
+    background-color:#1C1C1C ;
+    border: 2px solid white;
+    border-radius: 8px;
+    width:300px;
+    height:350px;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.book-item a{
+    text-decoration: none;
+    color: white;
+}
+.book-item:hover{
+    transform: scale(1.05) ;
+    box-shadow: 0 8 16px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+.book-image{
+    border-radius:5px;
+    max-height: 200px;
+    max-width: 200px;
+    color: white;
+    min-height: 200px;
+}
+
+.book-item h2{
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+.book-item p{
+    font-size: 14px;
+    color: white;
+}
+.book-item:hover h2,
+.book-item:hover p{
+    color:rgb(190, 89, 7)
+}
+=======
+>>>>>>> Stashed changes

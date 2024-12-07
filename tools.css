@@ -1,4 +1,5 @@
-
+ 
+   
 main {
     flex:1
 }
@@ -66,23 +67,22 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     text-align: center;
-    justify-content: space-evenly;
 }
 
 .sticky-box{
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    width: 1920px;
+    width: 1510px;
     height:111px;
-    background-image:url(BookPictures/book-header.jpg);
+    background-image:url(NavTools.jpg);
     background-size: cover;
     position: sticky;
     top: 0px;
 }
 
 
-.book{
+.tool{
     display:flex;
     justify-content:space-around;
     align-items: flex-start;
@@ -91,7 +91,7 @@ h1{
     margin: 0;
 }
 
-.bookline2{
+.toolline2{
     display:flex;
     justify-content:space-around;
     align-items: flex-start;
@@ -99,7 +99,7 @@ h1{
     padding: 20px;
     margin: 0;
 }
-.book-item {
+.tool-item {
     background-color:#1C1C1C ;
     border: 2px solid white;
     border-radius: 8px;
@@ -111,34 +111,36 @@ h1{
     box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.book-item a{
+.tool-item a{
     text-decoration: none;
     color: white;
 }
-.book-item:hover{
+.tool-item:hover{
     transform: scale(1.05) ;
     box-shadow: 0 8 16px rgba(0, 0, 0, 0.3);
     text-decoration: none;
 }
-.book-image{
+.tool-image{
     border-radius:5px;
     max-height: 200px;
     max-width: 200px;
     color: white;
     min-height: 200px;
+    justify-content: space-around;
+
 }
 
-.book-item h2{
+.tool-item h2{
     font-size: 18px;
     margin: 10px 0;
     color: white;
 }
 
-.book-item p{
+.tool-item p{
     font-size: 14px;
     color: white;
 }
-.book-item:hover h2,
-.book-item:hover p{
+.tool-item:hover h2,
+.tool-item:hover p{
     color:rgb(190, 89, 7)
 }
