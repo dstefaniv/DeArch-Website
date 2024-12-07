@@ -127,12 +127,13 @@ button:hover {
 }
 
 .bookline2 {
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: nowrap;
     padding: 20px;
     margin: 0;
+    visibility: hidden;
 }
 
 .book-item {
@@ -182,3 +183,4 @@ button:hover {
 .book-item:hover p {
     color: rgb(190, 89, 7);
 }
+
