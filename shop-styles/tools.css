@@ -99,7 +99,7 @@ button:hover {
     border-style: solid;
     width: 100%;
     height: 111px;
-    background-image: url(BookPictures/book-header.jpg);
+    background-image: url(/BookPictures/Software/toolsnav.jpg);
     background-size: cover;
     position: sticky;
     top: 0;
